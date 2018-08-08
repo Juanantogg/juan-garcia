@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2C3E50" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header id="inicio">
+    <div class="menu">
+      <h1>
+        <a  href="#inicio">Juan G<span class="oculto">arcía</span></a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a id="aPortafolio" href="#portafolio">PROYECTOS</a></li>
+          <li><a id="aAcerca" href="#acerca">ACERCA</a></li>
+          <li><a id="aContacto" href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="cabecera" id="inicio">
+      <img src="./images/yo.jpg">
+      <h2>Juan G<span class="oculto">arcía</span></h2>
+      <span class="star"><hr></span>
+      <h3>Desarrollador web <span class="oculto">- </span><span class="bajar">FRONT END</span></h3>
+    </div>
+  </header>
+  <main>
+    <div class="portafolio" id="portafolio">
+      <h4>PROYECTOS</h3>
+      <span class="star even"><hr></span>
+      <div class="portafolio-imagenes">
+        <a href="./paginas/vue/index.html" target="_blank"><div><img class="vue" src="images/vuejs.png" alt=""></div></a>
+        <a href="./paginas/salis/index.html" target="_blank"><div><img class="sails" src="images/sails.png" alt=""></div></a>
+        <a href="./paginas/typescript/index.html" target="_blank"><div><img class="typescript" src="images/typescript.svg" alt=""></div></a>
+        <a href="./paginas/sass/index.html" target="_blank"><div><img class="sass" src="images/sass.svg" alt=""></div></a>
+        <a href="./paginas/angular/index.html" target="_blank"><div><img class="angular" src="images/angular.svg" alt=""></div></a>
+        <a href="./paginas/spotify/index.html" target="_blank"><div><img class="spotify" src="images/spotify.png" alt=""></div></a>
+      </div>
+    </div>
+    <div class="acerca" id="acerca">
+      <h4>ACERCA</h3>
+      <span class="star"><hr></span>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="contacto" id="contacto">
+      <h4>CONTACTAME</h3>
+      <span class="star even"><hr></span>
+      <form method="POST" action="https://formspree.io/juananto11@hotmail.com">
+        <label class="campo">
+          <input class="campo-formulario" type="text" name="nombre" placeholder="Nombre">
+          <div class="foco"></div>
+          <div class="borde"></div>
+        </label>
+        <label class="campo">
+          <input class="campo-formulario" type="email" name="correo" placeholder="Correo">
+          <div class="foco"></div>
+          <div class="borde"></div>
+        </label>
+        <label class="campo">
+          <input class="campo-formulario" type="tel" name="telefono" placeholder="Telefono">
+          <div class="foco"></div>
+          <div class="borde"></div>
+        </label>
+        <label class="campo">
+          <textarea class="campo-formulario" name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+          <div class="foco"></div>
+          <div class="borde"></div>
+        </label>
+        <button type="submit" id="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="pie-pagina">
+      <div class="direccion">
+        <h5>DIRECCIÓN</h4>
+        <p>Súper Mz. 1, Mz. 35, Ed. 1 a</p>
+        <p>U. Hab. Ejercito Constitucionalista</p>
+        <p>Iztapalapa, CDMX. C.P. 09220, México</p>
+      </div>
+      <div class="redes">
+        <h5>REDES</h4>
+        <ul>
+          <li><a class="correo" href="#"></a></li>
+          <li><a class="whats" href="#"></a></li>
+          <li><a class="github" href="#"></a></li>
+          <li><a class="linkedin" href="#"></a></li>
+          <li><a class="facebook" href="#"></a></li>
+          <li><a class="twitter" href="#"></a></li>
+        </ul>
+      </div>
+      <div class="agradecimiento">
+        <h5>SOBRE FREELANCER</h4>
+        <p>Freelance es un tema de Bootstrap de código abierto de uso libre creado por <a href="http://startbootstrap.com/">Start Bootstrap</a>.</p>
+      </div>
+    </div>
+    <p class="copyright">
+      Copyright &copy; - Juan García 2017
+    </p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+	padding-top: 4em;
+	font-family: arial;
+}
+header{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.logo{
+	width: 200px;
+	height: 200px;
+}
+.titular{
+	padding-left: 3em
+}
+
+h1{
+	font-size: 3.2em;
+	font-weight: 100;
+	margin-top: 5px;
+}
+
+.boton{
+	display: inline-block;
+	width: 100px;
+	padding: 1em ;
+	border-radius: 30px;
+	font-size: .8em;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: center;
+}
+
+.empezar{
+	background: #41B883;
+	color: #FFFFFF;
+}
+.github{
+	color: #41B883;
+	border: 1px solid #41B883;
+	margin-left: 20px;
+}

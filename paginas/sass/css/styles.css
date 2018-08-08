@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+}
+.contenedor{
+	background-image: url(./../images/grey-prism-63478a91.svg);
+	background-repeat: repeat-x;
+}
+.encabezado-azul{
+	background: #003366;
+	color: #3792CA;
+	text-align: center;
+	padding: 3px;
+}
+
+.encabezado-azul a{
+	color: white;
+	text-decoration: none;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+.menu img {
+	width: 128px;
+	height: 96px;
+	margin: 15px 70px;
+}
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	padding: 40px;
+}
+.menu li{
+	list-style-type: none;
+}
+.menu a{
+	text-decoration: none;
+	color: #CF649A;
+}
+.titulo h1{
+	color: #828C98;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 100;js
+}
+.lentes{
+	display: flex;
+	padding-top: 55px;
+	justify-content: space-around;
+	align-items: center;
+}
+.lentes img{
+	width: 592px;
+	height: 206px;
+}
+.lentes p{
+	width: 40%;
+	font-size: 26px;
+	color: #669999
+}

@@ -1,0 +1,35 @@
+body{
+	background: #152740;
+	font-family: 'helvetica';
+	color: white;
+	padding-top: 50px;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+img{
+	width: 306px;
+}
+h3{
+	font-weight: 100;
+	color: #FFA700;
+	font-size: 25px;
+	margin: 20px;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+a{
+	background: #FFA700;
+	padding: 15px;
+	width: 150px;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 14px;
+}
